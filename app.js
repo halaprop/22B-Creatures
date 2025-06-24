@@ -1,1 +1,204 @@
-function a0_0x5084(){const _0x4b5c06=['fa-play','add','submit','speed-btn','2950640RenXqG','files','snakeApp','Saving','51484pdordv','message','#speed-select','a[data-sleep]','filter','setItem','uk-active','innerText','#submit-modal','hide','forEach','838352mKuMYZ','sleepTimeout','playback-btn','student-id','CREATURES_SUBMISSIONS','modal-submit-btn','speed-select','disabled','2349252yisCOU','hidden','addEventListener','isPaused','submitted','6cHXITQ','continuePlayback','last-name','getAttribute','startPlayback','Creatures','click','upload-btn','1MBIlIW','_isPaused','classList','submitStateReady','a.uk-active[data-sleep]','value','playbackIndex','cancel-btn','okay-btn','preventDefault','remove','first-name','querySelectorAll','2750065CYLQHz','key-file-input','data-sleep','keys','status-msg','21412881apFPZK','submitStateDone','fa-pause','length','querySelector','keys-','key','submit-btn','text','submission-form','4064788RBqkvw','change','cout-lines','dropdown','innerHTML','modal','startsWith','Snake','getElementById','keydown','fa-'];a0_0x5084=function(){return _0x4b5c06;};return a0_0x5084();}const a0_0x210d60=a0_0x4ccb;(function(_0x48f8e0,_0x4147fe){const _0x17665a=a0_0x4ccb,_0x2af21f=_0x48f8e0();while(!![]){try{const _0x1cfe3f=parseInt(_0x17665a(0xae))/0x1*(parseInt(_0x17665a(0x8e))/0x2)+parseInt(_0x17665a(0xa1))/0x3+parseInt(_0x17665a(0x8a))/0x4+-parseInt(_0x17665a(0xbb))/0x5*(-parseInt(_0x17665a(0xa6))/0x6)+parseInt(_0x17665a(0x7b))/0x7+parseInt(_0x17665a(0x99))/0x8+-parseInt(_0x17665a(0x71))/0x9;if(_0x1cfe3f===_0x4147fe)break;else _0x2af21f['push'](_0x2af21f['shift']());}catch(_0x46c4a0){_0x2af21f['push'](_0x2af21f['shift']());}}}(a0_0x5084,0x62550));import{CreaturesApp}from'./creature.js';import{readKeys,rleCompress}from'./key-file-reader.js';import{RemoteStorage}from'./remoteStorage.mjs';function a0_0x4ccb(_0x3b2035,_0x3ada93){const _0x5084d3=a0_0x5084();return a0_0x4ccb=function(_0x4ccbcb,_0x20ca54){_0x4ccbcb=_0x4ccbcb-0x6e;let _0x219b1a=_0x5084d3[_0x4ccbcb];return _0x219b1a;},a0_0x4ccb(_0x3b2035,_0x3ada93);}const projectID=a0_0x210d60(0xab);window[a0_0x210d60(0xa3)]('DOMContentLoaded',()=>{const _0xa37b82=a0_0x210d60;document['title']=projectID,App['el']('title-bar-title')[_0xa37b82(0x95)]=projectID,App['el'](_0xa37b82(0x7d))['hidden']=projectID==_0xa37b82(0x82);});const project=CreaturesApp,namespace=a0_0x210d60(0x9d),SUBMISSIONS_WRITE='x0R7wwi9cY2cvaGX.KKB7rARXvjKno43OdWwEUJESEOzBu30i3rtCwk69zrKKy6oaMQTTkEJmp2F4e3rkQz7XETmy6ByXdyHjPviDrxwMigIE4+PbP4FZeVY=',remoteStorage=new RemoteStorage(namespace,SUBMISSIONS_WRITE);class App{static['el'](_0xeb69ec){const _0x1ef04c=a0_0x210d60;return document[_0x1ef04c(0x83)](_0xeb69ec);}constructor(){const _0x1d88d3=a0_0x210d60,_0x2c2caf=App['el'](_0x1d88d3(0xbc)),_0x1706db=App['el']('submit-btn'),_0x4b8197=App['el'](_0x1d88d3(0x9b)),_0xb69b64=App['el'](_0x1d88d3(0x89)),_0x402cfc=App['el']('speed-select');this[_0x1d88d3(0x8c)]=new project(),App['el'](_0x1d88d3(0xad))[_0x1d88d3(0xa3)](_0x1d88d3(0xac),()=>{_0x2c2caf['click']();}),_0x2c2caf[_0x1d88d3(0xa3)](_0x1d88d3(0x7c),async()=>{const _0x67cc9c=_0x1d88d3,_0x3f7748=_0x2c2caf[_0x67cc9c(0x8b)][0x0];if(_0x3f7748){const {keys:_0x436f70,text:_0x4d23c4}=await readKeys(_0x3f7748);this[_0x67cc9c(0x6f)]=_0x436f70,this[_0x67cc9c(0x79)]=_0x4d23c4,this['snakeApp']=new project(),this[_0x67cc9c(0xaa)](),_0x2c2caf[_0x67cc9c(0xb3)]='',_0x4b8197[_0x67cc9c(0xa0)]=![],_0xb69b64[_0x67cc9c(0xa0)]=![],_0x1706db[_0x67cc9c(0xa0)]=!![];}}),_0x4b8197[_0x1d88d3(0xa3)](_0x1d88d3(0xac),()=>{const _0x28cd42=_0x1d88d3;this[_0x28cd42(0xa4)]=!this['isPaused'],!this[_0x28cd42(0xa4)]&&this[_0x28cd42(0xa7)]();}),this['submitStateReady'](),_0x1706db[_0x1d88d3(0xa3)](_0x1d88d3(0xac),()=>{const _0x39bbdd=_0x1d88d3;UIkit[_0x39bbdd(0x80)]('#submit-modal')['show'](),this['submitStateReady']();});const _0x2302db=App['el'](_0x1d88d3(0x7a));_0x2302db[_0x1d88d3(0xa3)](_0x1d88d3(0x88),_0x5f0c4d=>this[_0x1d88d3(0xa5)](_0x5f0c4d)),App['el'](_0x1d88d3(0xb6))['addEventListener'](_0x1d88d3(0xac),_0x43f913=>{const _0x508c6a=_0x1d88d3;UIkit[_0x508c6a(0x80)](_0x508c6a(0x96))[_0x508c6a(0x97)]();}),_0x402cfc[_0x1d88d3(0xba)](_0x1d88d3(0x91))[_0x1d88d3(0x98)](_0x36d35f=>{const _0x30b0f0=_0x1d88d3;_0x36d35f[_0x30b0f0(0xa3)](_0x30b0f0(0xac),_0x7d0dd4=>{const _0x290a66=_0x30b0f0;_0x7d0dd4[_0x290a66(0xb7)](),UIkit[_0x290a66(0x7e)](_0x290a66(0x90))[_0x290a66(0x97)](),_0x402cfc[_0x290a66(0xba)]('a.uk-active')['forEach'](_0x50fc99=>_0x50fc99[_0x290a66(0xb0)][_0x290a66(0xb8)](_0x290a66(0x94))),_0x36d35f['classList']['add']('uk-active'),App['el'](_0x290a66(0x89))[_0x290a66(0x7f)]=_0x36d35f[_0x290a66(0x7f)];});}),document['addEventListener'](_0x1d88d3(0x84),_0x5ae0f9=>{const _0x1d7c7b=_0x1d88d3,_0x557ba3=document[_0x1d7c7b(0x75)]('.uk-modal.uk-open');if(_0x557ba3)return;!this['gameOver']&&(_0x5ae0f9['preventDefault'](),_0x5ae0f9['stopPropagation'](),this['snakeApp'][_0x1d7c7b(0x84)](_0x5ae0f9[_0x1d7c7b(0x77)]));});}[a0_0x210d60(0xaa)](){const _0x3240cd=a0_0x210d60;this[_0x3240cd(0xa4)]=![],this['playbackIndex']=0x0,this[_0x3240cd(0xa7)]();}async[a0_0x210d60(0xa7)](){const _0x576fdb=a0_0x210d60,_0x159950=_0xb0e311=>new Promise(_0x16cae7=>setTimeout(_0x16cae7,_0xb0e311));while(!this[_0x576fdb(0xa4)]&&this[_0x576fdb(0xb4)]<this[_0x576fdb(0x6f)][_0x576fdb(0x74)]){await _0x159950(this[_0x576fdb(0x9a)]);const _0x227bed=this[_0x576fdb(0x6f)][this[_0x576fdb(0xb4)]++];this[_0x576fdb(0x8c)][_0x576fdb(0x84)](_0x227bed);}this[_0x576fdb(0xb4)]>=this['keys'][_0x576fdb(0x74)]&&(App['el'](_0x576fdb(0x78))[_0x576fdb(0xa0)]=![]);}get[a0_0x210d60(0xa4)](){const _0x303455=a0_0x210d60;return this[_0x303455(0xaf)];}set[a0_0x210d60(0xa4)](_0x4f7f2c){const _0x3dfbb0=a0_0x210d60;this['_isPaused']=_0x4f7f2c;const _0x986766=App['el'](_0x3dfbb0(0x9b))['querySelector']('i'),_0x50c072=[..._0x986766[_0x3dfbb0(0xb0)]][_0x3dfbb0(0x92)](_0x16c63d=>_0x16c63d[_0x3dfbb0(0x81)](_0x3dfbb0(0x85)));_0x986766[_0x3dfbb0(0xb0)][_0x3dfbb0(0xb8)](..._0x50c072),_0x986766[_0x3dfbb0(0xb0)][_0x3dfbb0(0x87)](_0x4f7f2c?_0x3dfbb0(0x86):_0x3dfbb0(0x73));}get['sleepTimeout'](){const _0x1078c2=a0_0x210d60,_0x7a3e7b=App['el'](_0x1078c2(0x9f))['querySelector'](_0x1078c2(0xb2));return _0x7a3e7b?parseInt(_0x7a3e7b[_0x1078c2(0xa9)](_0x1078c2(0x6e)),0xa):null;}async[a0_0x210d60(0xa5)](_0x5e3539){const _0x45b5e6=a0_0x210d60;_0x5e3539[_0x45b5e6(0xb7)](),this['submitStateBusy'](_0x45b5e6(0x8d));const _0x6056c7=App['el'](_0x45b5e6(0xb9))[_0x45b5e6(0xb3)],_0x54bb99=App['el'](_0x45b5e6(0xa8))['value'],_0x5833f2=App['el'](_0x45b5e6(0x9c))[_0x45b5e6(0xb3)],_0x4214ed=_0x45b5e6(0x76)+_0x5833f2,_0x9452d6=rleCompress(text),_0x350433={'firstName':_0x6056c7,'lastName':_0x54bb99,'studentID':_0x5833f2,'keystrokesKey':_0x4214ed},_0x4034ae='submission-'+_0x5833f2;try{await remoteStorage[_0x45b5e6(0x93)](_0x4214ed,_0x9452d6),await remoteStorage[_0x45b5e6(0x93)](_0x4034ae,_0x350433);}catch(_0x166b9e){this['submitStateDone'](_0x166b9e[_0x45b5e6(0x8f)]);}finally{this[_0x45b5e6(0x72)]('Success');}}[a0_0x210d60(0xb1)](){const _0x14b0cb=a0_0x210d60;App['el'](_0x14b0cb(0x70))[_0x14b0cb(0xa2)]=!![],App['el']('spinner')[_0x14b0cb(0xa2)]=!![],App['el'](_0x14b0cb(0x9e))[_0x14b0cb(0xa0)]=![],App['el'](_0x14b0cb(0xb5))[_0x14b0cb(0xa2)]=![],App['el'](_0x14b0cb(0xb5))[_0x14b0cb(0xa0)]=![],App['el'](_0x14b0cb(0x9e))['hidden']=![],App['el'](_0x14b0cb(0xb6))[_0x14b0cb(0xa2)]=!![];}['submitStateBusy'](_0x1772e1){const _0x4f9b4f=a0_0x210d60;App['el'](_0x4f9b4f(0x70))[_0x4f9b4f(0xa2)]=![],App['el']('status-msg')['innerText']=_0x1772e1,App['el']('spinner')[_0x4f9b4f(0xa2)]=![],App['el']('modal-submit-btn')[_0x4f9b4f(0xa0)]=!![],App['el'](_0x4f9b4f(0xb5))[_0x4f9b4f(0xa0)]=!![];}[a0_0x210d60(0x72)](_0x3c7803){const _0x1d0861=a0_0x210d60;App['el'](_0x1d0861(0x70))[_0x1d0861(0xa2)]=![],App['el']('status-msg')['innerText']=_0x3c7803,App['el']('spinner')['hidden']=!![],App['el'](_0x1d0861(0x9e))[_0x1d0861(0xa2)]=!![],App['el'](_0x1d0861(0xb5))[_0x1d0861(0xa2)]=!![],App['el'](_0x1d0861(0xb6))['hidden']=![];}}const app=new App();
+// build.sh selects one or the other of these imports
+import { CreaturesApp } from "./creature.js";
+// stripped for creatures build
+
+// In dev, this file is unaltered. Query param determines projectID.
+// build.sh replaces these ternarys with either a snake or creatures value:
+const projectID = (new URLSearchParams(window.location.search)).get("project")?.toLowerCase() === "snake" ? "Snake" : "Creatures";
+const project = CreaturesApp;
+const namespace = "CREATURES_SUBMISSIONS";
+const SUBMISSIONS_WRITE = "x0R7...";
+
+// Code from this point forward is not altered by build.sh
+import { readKeys, rleCompress } from "./key-file-reader.js";
+import { RemoteStorage } from "./remoteStorage.mjs";
+
+window.addEventListener("DOMContentLoaded", () => {
+  document.title = projectID;
+  App.el("title-bar-title").innerText = projectID;
+  App.el("cout-lines").hidden = projectID == "Snake";
+});
+
+const remoteStorage = new RemoteStorage(namespace, SUBMISSIONS_WRITE);
+
+class App {
+  static el(id) {
+    return document.getElementById(id);
+  }
+  
+  constructor() {
+    const fileInput = App.el('key-file-input');
+    const submitBtn = App.el('submit-btn');
+    const playBtn = App.el('playback-btn');
+    const speedBtn = App.el('speed-btn');
+    const dropdownEl = App.el('speed-select');
+
+    this.snakeApp = new project;
+
+    App.el("upload-btn").addEventListener('click', () => {
+      fileInput.click();
+    });
+
+    fileInput.addEventListener('change', async () => {
+      const file = fileInput.files[0];
+      if (file) {
+        const { keys, text } = await readKeys(file);
+        this.keys = keys;
+        this.text = text;
+        this.snakeApp = new project;
+        this.startPlayback();
+        fileInput.value = '';
+        playBtn.disabled = false;
+        speedBtn.disabled = false;
+        submitBtn.disabled = true;
+      }
+    });
+
+    playBtn.addEventListener('click', () => {
+      this.isPaused = !this.isPaused;
+      if (!this.isPaused) {
+        this.continuePlayback();
+      }
+    });
+
+    this.submitStateReady();
+
+    if (params.get("mode") == "admin") {
+      console.log("admin");
+    }
+
+    // menu bar submit
+    submitBtn.addEventListener('click', () => {
+      UIkit.modal('#submit-modal').show();
+      this.submitStateReady();
+    });
+
+    // form submission
+    const form = App.el('submission-form');
+    form.addEventListener('submit', e => this.submitted(e));
+
+    App.el("okay-btn").addEventListener('click', e => {
+      UIkit.modal('#submit-modal').hide();
+    });
+
+    dropdownEl.querySelectorAll('a[data-sleep]').forEach(anchor => {
+      anchor.addEventListener('click', e => {
+        e.preventDefault();
+        UIkit.dropdown('#speed-select').hide();
+        dropdownEl.querySelectorAll('a.uk-active').forEach(el =>
+          el.classList.remove('uk-active')
+        );
+        anchor.classList.add('uk-active');
+        App.el('speed-btn').innerHTML = anchor.innerHTML;
+      });
+    });
+
+    document.addEventListener("keydown", (event) => {
+      // Don't handle key events if the submit modal is open
+      const activeModal = document.querySelector('.uk-modal.uk-open');
+      if (activeModal) return;
+
+      if (!this.gameOver) {
+        event.preventDefault();
+        event.stopPropagation();
+        this.snakeApp.keydown(event.key);
+      }
+    });
+
+  }
+
+  startPlayback() {
+    this.isPaused = false;
+    this.playbackIndex = 0;
+    this.continuePlayback();
+  }
+
+  async continuePlayback() {
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+    while (!this.isPaused && this.playbackIndex < this.keys.length) {
+      await sleep(this.sleepTimeout);
+      const key = this.keys[this.playbackIndex++];
+      this.snakeApp.keydown(key);
+    }
+
+    if (this.playbackIndex >= this.keys.length) {
+      App.el('submit-btn').disabled = false;
+    }
+  }
+
+  get isPaused() {
+    return this._isPaused;
+  }
+
+  set isPaused(isPaused) {
+    this._isPaused = isPaused;
+    const icon = App.el('playback-btn').querySelector("i");
+    const faClasses = [...icon.classList].filter(cls => cls.startsWith("fa-"));
+    icon.classList.remove(...faClasses);
+    icon.classList.add(isPaused ? "fa-play" : "fa-pause");
+  }
+
+  get sleepTimeout() {
+    const active = App.el('speed-select').querySelector('a.uk-active[data-sleep]');
+    return active ? parseInt(active.getAttribute('data-sleep'), 10) : null;
+  }
+
+  async submitted(e) {
+    e.preventDefault();
+    this.submitStateBusy('Saving');
+
+    const firstName = App.el('first-name').value;
+    const lastName = App.el('last-name').value;
+    const studentID = App.el('student-id').value;
+
+    const keystrokesKey = `keys-${studentID}`;
+    const keystrokesValue = rleCompress(text);
+
+    const submissionValue = { firstName, lastName, studentID, keystrokesKey };
+    const submissionKey = `submission-${studentID}`;
+
+    try {
+      await remoteStorage.setItem(keystrokesKey, keystrokesValue);
+      await remoteStorage.setItem(submissionKey, submissionValue);
+    } catch (error) {
+      this.submitStateDone(error.message);
+    } finally {
+      this.submitStateDone('Success');
+    }    
+  }
+
+  submitStateReady() {
+    App.el("status-msg").hidden = true;
+    App.el("spinner").hidden = true;
+    App.el("modal-submit-btn").disabled = false;
+    App.el("cancel-btn").hidden = false;
+    App.el("cancel-btn").disabled = false;
+    App.el("modal-submit-btn").hidden = false;
+    App.el("okay-btn").hidden = true;
+  }
+
+  submitStateBusy(message) {
+    App.el("status-msg").hidden = false;
+    App.el("status-msg").innerText = message;
+
+    App.el("spinner").hidden = false;
+    App.el("modal-submit-btn").disabled = true;
+    App.el("cancel-btn").disabled = true;
+
+  }
+
+  submitStateDone(message) {
+    App.el("status-msg").hidden = false;
+    App.el("status-msg").innerText = message;
+
+    App.el("spinner").hidden = true;
+    App.el("modal-submit-btn").hidden = true;
+    App.el("cancel-btn").hidden = true;
+    App.el("okay-btn").hidden = false;
+  }
+
+}
+const app = new App();
+
+

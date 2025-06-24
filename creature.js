@@ -1,1 +1,229 @@
-function a0_0x35a4(_0x4c646d,_0x47a986){const _0x5b242d=a0_0x5b24();return a0_0x35a4=function(_0x35a413,_0x3558ed){_0x35a413=_0x35a413-0x183;let _0x49e297=_0x5b242d[_0x35a413];return _0x49e297;},a0_0x35a4(_0x4c646d,_0x47a986);}const a0_0x1ea7da=a0_0x35a4;(function(_0x784a0d,_0x457f30){const _0x32142e=a0_0x35a4,_0x61045f=_0x784a0d();while(!![]){try{const _0x13c4d1=parseInt(_0x32142e(0x1db))/0x1*(-parseInt(_0x32142e(0x1a7))/0x2)+parseInt(_0x32142e(0x1b2))/0x3*(-parseInt(_0x32142e(0x1c2))/0x4)+parseInt(_0x32142e(0x1df))/0x5+parseInt(_0x32142e(0x1ba))/0x6*(parseInt(_0x32142e(0x1ac))/0x7)+-parseInt(_0x32142e(0x1b7))/0x8*(-parseInt(_0x32142e(0x1dc))/0x9)+-parseInt(_0x32142e(0x1a1))/0xa*(-parseInt(_0x32142e(0x1d7))/0xb)+-parseInt(_0x32142e(0x1dd))/0xc;if(_0x13c4d1===_0x457f30)break;else _0x61045f['push'](_0x61045f['shift']());}catch(_0x150bc8){_0x61045f['push'](_0x61045f['shift']());}}}(a0_0x5b24,0x64c03));import{ConsoleGrid,Cout}from'./console-grid.js';export class CreaturesApp{static ['kInitialPlayerCalories']=0x78;static [a0_0x1ea7da(0x194)]=0x5;constructor(){const _0x5ce4e5=a0_0x1ea7da,_0x20405a={'canvas':document[_0x5ce4e5(0x193)](_0x5ce4e5(0x1d6)),'rowCount':0x14,'colCount':0x1e,'backgroundDots':!![]};this[_0x5ce4e5(0x1e1)]=0x64,this[_0x5ce4e5(0x1bf)]=new ConsoleGrid(_0x20405a);const _0x1787d5=document[_0x5ce4e5(0x193)](_0x5ce4e5(0x19c));this[_0x5ce4e5(0x188)]=new Cout(_0x1787d5),this['playerRow']=0x5,this[_0x5ce4e5(0x1b4)]=0x5,this['playerCalories']=CreaturesApp[_0x5ce4e5(0x195)],this['turnCount']=0x0,this['gameOver']=![],this[_0x5ce4e5(0x1af)]=new CreatureList(),this[_0x5ce4e5(0x1af)][_0x5ce4e5(0x19a)](),this[_0x5ce4e5(0x1af)][_0x5ce4e5(0x1d5)](this[_0x5ce4e5(0x1bf)]),this['grid'][_0x5ce4e5(0x1d8)](this['playerRow'],this[_0x5ce4e5(0x1b4)],'@',_0x5ce4e5(0x18e)),this['grid'][_0x5ce4e5(0x19d)](this[_0x5ce4e5(0x1e3)](this[_0x5ce4e5(0x18d)],'')),this[_0x5ce4e5(0x188)]['writeLine'](this[_0x5ce4e5(0x1af)][_0x5ce4e5(0x1c9)]());}['statusString'](_0x2d9e3e,_0x3f85b3){const _0x3d71bf=a0_0x1ea7da;return _0x3d71bf(0x1ae)+this[_0x3d71bf(0x1c8)]+_0x3d71bf(0x187)+_0x2d9e3e+_0x3d71bf(0x1be)+_0x3f85b3;}['keydown'](_0x16f4d4){const _0x51ca7e=a0_0x1ea7da;if(this[_0x51ca7e(0x185)])return;let _0x54395d=![],_0x277a8b='';this[_0x51ca7e(0x1af)][_0x51ca7e(0x1a0)](this[_0x51ca7e(0x1bf)]),this[_0x51ca7e(0x1bf)][_0x51ca7e(0x1e0)](this['playerRow'],this[_0x51ca7e(0x1b4)]);switch(_0x16f4d4){case _0x51ca7e(0x19f):this['playerRow']>0x0&&(_0x54395d=!![],this[_0x51ca7e(0x1e2)]--);break;case _0x51ca7e(0x189):this[_0x51ca7e(0x1e2)]+0x1<this[_0x51ca7e(0x1bf)]['rowCount']&&(_0x54395d=!![],this[_0x51ca7e(0x1e2)]++);break;case _0x51ca7e(0x1c3):this['playerCol']>0x0&&(_0x54395d=!![],this[_0x51ca7e(0x1b4)]--);break;case _0x51ca7e(0x1d9):this[_0x51ca7e(0x1b4)]+0x1<this[_0x51ca7e(0x1bf)][_0x51ca7e(0x1ce)]&&(_0x54395d=!![],this['playerCol']++);break;case'Q':case'q':this[_0x51ca7e(0x185)]=!![];break;default:break;}if(!this['gameOver']){_0x54395d&&(this[_0x51ca7e(0x18d)]-=CreaturesApp[_0x51ca7e(0x194)]);this[_0x51ca7e(0x1af)][_0x51ca7e(0x1b1)](this[_0x51ca7e(0x1bf)][_0x51ca7e(0x1b9)],this[_0x51ca7e(0x1bf)]['colCount']);let _0x5b4f33=this['creatureList'][_0x51ca7e(0x1a3)](this[_0x51ca7e(0x1e2)],this[_0x51ca7e(0x1b4)]);_0x5b4f33&&(_0x277a8b=_0x51ca7e(0x1cc)+_0x5b4f33[_0x51ca7e(0x18b)],this[_0x51ca7e(0x18d)]+=_0x5b4f33[_0x51ca7e(0x1ab)],this['creatureList'][_0x51ca7e(0x1c5)](_0x5b4f33),this['creatureList'][_0x51ca7e(0x186)]()==0x0&&(_0x277a8b=_0x51ca7e(0x1c0),this[_0x51ca7e(0x185)]=!![])),this[_0x51ca7e(0x18d)]<=0x0&&(_0x277a8b=_0x51ca7e(0x191),this[_0x51ca7e(0x185)]=!![]),this[_0x51ca7e(0x1c8)]++;}this[_0x51ca7e(0x1af)]['draw'](this[_0x51ca7e(0x1bf)]),this[_0x51ca7e(0x1bf)][_0x51ca7e(0x1d8)](this[_0x51ca7e(0x1e2)],this[_0x51ca7e(0x1b4)],'@',_0x51ca7e(0x18e)),this[_0x51ca7e(0x1bf)][_0x51ca7e(0x19d)](this[_0x51ca7e(0x1e3)](this[_0x51ca7e(0x18d)],_0x277a8b)),this[_0x51ca7e(0x188)][_0x51ca7e(0x196)](this[_0x51ca7e(0x1af)][_0x51ca7e(0x1c9)]());}}function a0_0x5b24(){const _0x4f8bbc=['Hedgehog','padEnd','map','\x20cals.\x20','grid','Having\x20eaten\x20everything,\x20player\x20wins!','dRow','3396bfsvNs','ArrowLeft','creatures','removeCreature','initialCalories','Squirrel','turnCount','toString','orangered','magenta','Ate\x20the\x20','deepskyblue','colCount','join','dodgerblue','kCaloriesGainedPerMeal','move','green','rest','draw','main-canvas','619773ECWbJK','drawCharAt','ArrowRight','resting','16806SszXEd','87021uxIVio','10817928fbohtt','Owl','2688625wMeEOt','eraseCharAt','sleepTimeout','playerRow','statusString','Fox','aqua','gameOver','creatureCount','.\x20Player\x20has\x20','cout','ArrowDown','Badger','name','Rabbit','playerCalories','white','color','length','Having\x20starved,\x20player\x20dies.','gold','getElementById','kCaloriesConsumedPerMove','kInitialPlayerCalories','writeLine','<br>','violet','Lynx','addCreaturesFromFile','takeTurn','cout-lines','setStatusLine','forEach','ArrowUp','erase','130eHhDbz','yellow','creatureAtPosition','cyan','Deer','dCol','4YZyrXu','row','chartreuse','assign','calories','7SEpXEL','orange','Turn\x20','creatureList','col','takeTurns','951KqAFot','find','playerCol','padStart','glyph','216IZhKFz','Porcupine','rowCount','514002okgVTT'];a0_0x5b24=function(){return _0x4f8bbc;};return a0_0x5b24();}class Creature{constructor(_0x5ad858){const _0x42423e=a0_0x1ea7da;Object[_0x42423e(0x1aa)](this,_0x5ad858),this[_0x42423e(0x1c6)]=this[_0x42423e(0x1ab)];}static [a0_0x1ea7da(0x194)]=0x5;static [a0_0x1ea7da(0x1d1)]=0x3c;static ['kCaloriesGainedPerRest']=0x5;['positionEquals'](_0x147c65,_0x4fb067){const _0x1c92d6=a0_0x1ea7da;return this[_0x1c92d6(0x1a8)]==_0x147c65&&this[_0x1c92d6(0x1b0)]==_0x4fb067;}['takeTurn'](_0x30f06d,_0x13ab71){const _0x1a91af=a0_0x1ea7da;this[_0x1a91af(0x1da)]?this[_0x1a91af(0x1d4)]():this['move'](_0x30f06d,_0x13ab71);}[a0_0x1ea7da(0x1d2)](_0x2e7b97,_0x41ad9f){const _0x27048d=a0_0x1ea7da;let _0x2e5380=this[_0x27048d(0x1a8)]+this[_0x27048d(0x1c1)];(_0x2e5380<0x0||_0x2e5380>=_0x2e7b97)&&(this[_0x27048d(0x1c1)]*=-0x1,_0x2e5380=this[_0x27048d(0x1a8)]+this[_0x27048d(0x1c1)]);let _0x4b6137=this[_0x27048d(0x1b0)]+this[_0x27048d(0x1a6)];(_0x4b6137<0x0||_0x4b6137>=_0x41ad9f)&&(this[_0x27048d(0x1a6)]*=-0x1,_0x4b6137=this[_0x27048d(0x1b0)]+this[_0x27048d(0x1a6)]),(this[_0x27048d(0x1a8)]!=_0x2e5380||this[_0x27048d(0x1b0)]!=_0x4b6137)&&(this[_0x27048d(0x1a8)]=_0x2e5380,this[_0x27048d(0x1b0)]=_0x4b6137,this[_0x27048d(0x1ab)]-=Creature[_0x27048d(0x194)],this[_0x27048d(0x1ab)]<=0x0&&(this['resting']=!![]));}[a0_0x1ea7da(0x1d4)](){const _0x21a030=a0_0x1ea7da;this[_0x21a030(0x1ab)]+=Creature['kCaloriesGainedPerRest'],this[_0x21a030(0x1ab)]>0.75*this['initialCalories']&&(this['resting']=![]);}[a0_0x1ea7da(0x1d5)](_0x1d4487){const _0x5cdae6=a0_0x1ea7da;_0x1d4487[_0x5cdae6(0x1d8)](this['row'],this[_0x5cdae6(0x1b0)],this[_0x5cdae6(0x1b6)],this[_0x5cdae6(0x18f)]);}[a0_0x1ea7da(0x1a0)](_0x1225d8){const _0x3ee29f=a0_0x1ea7da;_0x1225d8['eraseCharAt'](this[_0x3ee29f(0x1a8)],this[_0x3ee29f(0x1b0)]);}[a0_0x1ea7da(0x1c9)](){const _0x2aa12c=a0_0x1ea7da;return this[_0x2aa12c(0x18b)][_0x2aa12c(0x1bc)](0xa)+'\x20('+this['glyph']+')\x20'+this[_0x2aa12c(0x1ab)][_0x2aa12c(0x1c9)]()[_0x2aa12c(0x1b5)](0x4);}}class CreatureList{constructor(){}['addCreaturesFromFile'](){const _0x453cd5=a0_0x1ea7da,_0x4bd10b=[{'name':'Mouse','glyph':'M','row':0x5,'col':0x2,'dRow':0x1,'dCol':0x1,'calories':0x5a,'color':_0x453cd5(0x184)},{'name':_0x453cd5(0x18c),'glyph':'R','row':0x8,'col':0x1b,'dRow':0x1,'dCol':-0x1,'calories':0x6e,'color':_0x453cd5(0x1d3)},{'name':'Boar','glyph':'B','row':0x12,'col':0x12,'dRow':-0x1,'dCol':0x0,'calories':0xf0,'color':_0x453cd5(0x1a2)},{'name':_0x453cd5(0x1c7),'glyph':'S','row':0x9,'col':0x4,'dRow':-0x1,'dCol':-0x1,'calories':0x64,'color':_0x453cd5(0x198)},{'name':_0x453cd5(0x1a5),'glyph':'D','row':0xc,'col':0xf,'dRow':0x1,'dCol':0x0,'calories':0x15e,'color':_0x453cd5(0x1cb)},{'name':_0x453cd5(0x183),'glyph':'F','row':0x6,'col':0x13,'dRow':-0x1,'dCol':0x1,'calories':0x96,'color':_0x453cd5(0x1ad)},{'name':'Raccoon','glyph':'C','row':0xa,'col':0x7,'dRow':0x0,'dCol':0x1,'calories':0x78,'color':'crimson'},{'name':_0x453cd5(0x1de),'glyph':'O','row':0x3,'col':0x19,'dRow':0x1,'dCol':-0x1,'calories':0x8c,'color':_0x453cd5(0x1cd)},{'name':_0x453cd5(0x1bb),'glyph':'H','row':0xf,'col':0xa,'dRow':-0x1,'dCol':0x1,'calories':0x46,'color':_0x453cd5(0x1a9)},{'name':_0x453cd5(0x18a),'glyph':'A','row':0x7,'col':0xc,'dRow':0x1,'dCol':0x1,'calories':0xb4,'color':_0x453cd5(0x192)},{'name':_0x453cd5(0x1b8),'glyph':'P','row':0x12,'col':0x5,'dRow':0x0,'dCol':-0x1,'calories':0x82,'color':'tomato'},{'name':'Skunk','glyph':'K','row':0xe,'col':0x17,'dRow':0x1,'dCol':0x0,'calories':0x64,'color':_0x453cd5(0x1a4)},{'name':_0x453cd5(0x199),'glyph':'L','row':0x4,'col':0x8,'dRow':-0x1,'dCol':0x0,'calories':0xd2,'color':_0x453cd5(0x1d0)},{'name':'Falcon','glyph':'N','row':0x1,'col':0x1d,'dRow':0x0,'dCol':0x1,'calories':0xa0,'color':_0x453cd5(0x1ca)}];this[_0x453cd5(0x1c4)]=_0x4bd10b[_0x453cd5(0x1bd)](_0x4b8243=>new Creature(_0x4b8243));}['draw'](_0x53971d){const _0x58b997=a0_0x1ea7da;this[_0x58b997(0x1c4)][_0x58b997(0x19e)](_0x4ff9dd=>_0x4ff9dd[_0x58b997(0x1d5)](_0x53971d));}[a0_0x1ea7da(0x1a0)](_0xf69c30){const _0xc8397b=a0_0x1ea7da;this[_0xc8397b(0x1c4)][_0xc8397b(0x19e)](_0x3ccfa1=>_0x3ccfa1['erase'](_0xf69c30));}[a0_0x1ea7da(0x1b1)](_0xd535ef,_0xc9f564){const _0x110acb=a0_0x1ea7da;this[_0x110acb(0x1c4)][_0x110acb(0x19e)](_0x4e5993=>_0x4e5993[_0x110acb(0x19b)](_0xd535ef,_0xc9f564));}['creatureAtPosition'](_0x24c18f,_0x239305){const _0x54a3a8=a0_0x1ea7da;return this[_0x54a3a8(0x1c4)][_0x54a3a8(0x1b3)](_0x5709f6=>_0x5709f6['positionEquals'](_0x24c18f,_0x239305));}[a0_0x1ea7da(0x1c5)](_0x2a7dde){const _0x211990=a0_0x1ea7da;this[_0x211990(0x1c4)]=this['creatures']['filter'](_0x1a01d4=>_0x1a01d4!=_0x2a7dde);}[a0_0x1ea7da(0x186)](){const _0x4f3adf=a0_0x1ea7da;return this['creatures'][_0x4f3adf(0x190)];}['toString'](){const _0x52d1e5=a0_0x1ea7da;return this[_0x52d1e5(0x1c4)][_0x52d1e5(0x1bd)](_0x53bedf=>_0x53bedf['toString']())[_0x52d1e5(0x1cf)](_0x52d1e5(0x197));}}
+import { ConsoleGrid, Cout } from "./console-grid.js";
+
+export class CreaturesApp {
+  static kInitialPlayerCalories = 120;
+  static kCaloriesConsumedPerMove = 5;
+
+  constructor() {
+    const gridParams = {
+      canvas: document.getElementById("main-canvas"),
+      rowCount: 20,
+      colCount: 30,
+      backgroundDots: true
+    };
+    this.sleepTimeout = 100;
+    this.grid = new ConsoleGrid(gridParams);
+    const coutEl = document.getElementById('cout-lines');
+    this.cout = new Cout(coutEl);
+
+    this.playerRow = 5;
+    this.playerCol = 5;
+    this.playerCalories = CreaturesApp.kInitialPlayerCalories;
+    this.turnCount = 0;
+    this.gameOver = false;
+
+    this.creatureList = new CreatureList();
+    this.creatureList.addCreaturesFromFile();
+
+    this.creatureList.draw(this.grid);
+    this.grid.drawCharAt(this.playerRow, this.playerCol, '@', 'white');
+    this.grid.setStatusLine(this.statusString(this.playerCalories, ''));
+    this.cout.writeLine(this.creatureList.toString());
+  }
+
+  statusString(calories, status) {
+    return `Turn ${this.turnCount}. Player has ${calories} cals. ${status}`;
+  }
+
+  keydown(key) {
+    if (this.gameOver) return;
+    
+    let playerMoved = false;
+    let status = '';
+
+    this.creatureList.erase(this.grid);
+    this.grid.eraseCharAt(this.playerRow, this.playerCol);
+
+    switch (key) {
+      case "ArrowUp":
+        if (this.playerRow > 0) {
+          playerMoved = true;
+          this.playerRow--;
+        }
+        break;
+      case "ArrowDown":
+        if (this.playerRow + 1 < this.grid.rowCount) {
+          playerMoved = true;
+          this.playerRow++;
+        }
+        break;
+      case "ArrowLeft":
+        if (this.playerCol > 0) {
+          playerMoved = true;
+          this.playerCol--;
+        }
+        break;
+      case "ArrowRight":
+        if (this.playerCol + 1 < this.grid.colCount) {
+          playerMoved = true;
+          this.playerCol++;
+        }
+        break;
+      case 'Q':
+      case 'q':
+        this.gameOver = true;
+        break;
+      default: break;
+    }
+
+    if (!this.gameOver) {
+      if (playerMoved) {
+        this.playerCalories -= CreaturesApp.kCaloriesConsumedPerMove;
+      }
+
+      this.creatureList.takeTurns(this.grid.rowCount, this.grid.colCount);
+      let creatureToEat = this.creatureList.creatureAtPosition(this.playerRow, this.playerCol);
+      if (creatureToEat) {
+        status = "Ate the " + creatureToEat.name;
+        this.playerCalories += creatureToEat.calories;
+        this.creatureList.removeCreature(creatureToEat);
+        if (this.creatureList.creatureCount() == 0) {
+          status = "Having eaten everything, player wins!";
+          this.gameOver = true;
+        }
+      }
+
+      if (this.playerCalories <= 0) {
+        status = "Having starved, player dies.";
+        this.gameOver = true;
+      }
+      this.turnCount++;
+    }
+
+    this.creatureList.draw(this.grid);
+    this.grid.drawCharAt(this.playerRow, this.playerCol, '@', 'white');
+    this.grid.setStatusLine(this.statusString(this.playerCalories, status));
+    this.cout.writeLine(this.creatureList.toString());
+  }
+}
+
+
+class Creature {
+  // creature info has name, glyph, row, col, dRow, dCol, calories
+  constructor(creatureInfo) {
+    Object.assign(this, creatureInfo);
+    this.initialCalories = this.calories;
+  }
+
+  static kCaloriesConsumedPerMove = 5;
+  static kCaloriesGainedPerMeal = 60;
+  static kCaloriesGainedPerRest = 5;
+
+  positionEquals(row, col) {
+    return this.row == row && this.col == col;
+  }
+
+  takeTurn(rowCount, colCount) {
+    if (this.resting) {
+      this.rest();
+    } else {
+      this.move(rowCount, colCount);
+    }
+  }
+
+  move(rowCount, colCount) {
+    let candidateRow = this.row + this.dRow;
+    if (candidateRow < 0 || candidateRow >= rowCount) {
+      this.dRow *= -1;
+      candidateRow = this.row + this.dRow;
+    }
+    let candidateCol = this.col + this.dCol;
+    if (candidateCol < 0 || candidateCol >= colCount) {
+      this.dCol *= -1;
+      candidateCol = this.col + this.dCol;
+    }
+    if (this.row != candidateRow || this.col != candidateCol) {
+      this.row = candidateRow;
+      this.col = candidateCol;
+      this.calories -= Creature.kCaloriesConsumedPerMove;
+      if (this.calories <= 0) {
+        this.resting = true;
+      }
+    }
+  }
+
+  rest() {
+    this.calories += Creature.kCaloriesGainedPerRest;
+    if (this.calories > 0.75 * this.initialCalories) {
+      this.resting = false;
+    }
+  }
+
+  draw(grid) {
+    grid.drawCharAt(this.row, this.col, this.glyph, this.color);
+  }
+
+  erase(grid) {
+    grid.eraseCharAt(this.row, this.col);
+  }
+
+  toString() {
+    return `${this.name.padEnd(10)} (${this.glyph}) ${this.calories.toString().padStart(4)}`;
+  }
+
+}
+
+class CreatureList {
+  constructor() {
+  }
+
+  // for now, we'll use a literal array
+  addCreaturesFromFile() {
+    // note that this differs from student projects in that random colors are assigned here:
+    const creaturesInfo = [
+      { name: "Mouse", glyph: "M", row: 5, col: 2, dRow: 1, dCol: 1, calories: 90, color: "aqua" },
+      { name: "Rabbit", glyph: "R", row: 8, col: 27, dRow: 1, dCol: -1, calories: 110, color: "green" },
+      { name: "Boar", glyph: "B", row: 18, col: 18, dRow: -1, dCol: 0, calories: 240, color: "yellow" },
+      { name: "Squirrel", glyph: "S", row: 9, col: 4, dRow: -1, dCol: -1, calories: 100, color: "violet" },
+      { name: "Deer", glyph: "D", row: 12, col: 15, dRow: 1, dCol: 0, calories: 350, color: "magenta" },
+      { name: "Fox", glyph: "F", row: 6, col: 19, dRow: -1, dCol: 1, calories: 150, color: "orange" },
+      { name: "Raccoon", glyph: "C", row: 10, col: 7, dRow: 0, dCol: 1, calories: 120, color: "crimson" },
+      { name: "Owl", glyph: "O", row: 3, col: 25, dRow: 1, dCol: -1, calories: 140, color: "deepskyblue" },
+      { name: "Hedgehog", glyph: "H", row: 15, col: 10, dRow: -1, dCol: 1, calories: 70, color: "chartreuse" },
+      { name: "Badger", glyph: "A", row: 7, col: 12, dRow: 1, dCol: 1, calories: 180, color: "gold" },
+      { name: "Porcupine", glyph: "P", row: 18, col: 5, dRow: 0, dCol: -1, calories: 130, color: "tomato" },
+      { name: "Skunk", glyph: "K", row: 14, col: 23, dRow: 1, dCol: 0, calories: 100, color: "cyan" },
+      { name: "Lynx", glyph: "L", row: 4, col: 8, dRow: -1, dCol: 0, calories: 210, color: "dodgerblue" },
+      { name: "Falcon", glyph: "N", row: 1, col: 29, dRow: 0, dCol: 1, calories: 160, color: "orangered" }
+    ];
+    this.creatures = creaturesInfo.map(info => new Creature(info));
+  }
+
+  draw(grid) {
+    this.creatures.forEach(creature => creature.draw(grid));
+  }
+
+  erase(grid) {
+    this.creatures.forEach(creature => creature.erase(grid));
+  }
+
+  takeTurns(rowCount, colCount) {
+    this.creatures.forEach(creature => creature.takeTurn(rowCount, colCount));
+  }
+
+  creatureAtPosition(row, col) {
+    return this.creatures.find(creature => creature.positionEquals(row, col));
+  }
+
+  removeCreature(creature) {
+    this.creatures = this.creatures.filter(c => c != creature);
+  }
+
+  creatureCount() {
+    return this.creatures.length;
+  }
+
+  toString() {
+    return this.creatures.map(c => c.toString()).join('<br>')
+  }
+}

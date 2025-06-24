@@ -1,1 +1,132 @@
-const a0_0x46ec9b=a0_0x5702;(function(_0x439c90,_0xa2cfcd){const _0x49a4a6=a0_0x5702,_0x475bf8=_0x439c90();while(!![]){try{const _0x492b8c=parseInt(_0x49a4a6(0xdb))/0x1+parseInt(_0x49a4a6(0xe7))/0x2+parseInt(_0x49a4a6(0xc2))/0x3*(parseInt(_0x49a4a6(0xce))/0x4)+parseInt(_0x49a4a6(0xda))/0x5+-parseInt(_0x49a4a6(0xc6))/0x6*(-parseInt(_0x49a4a6(0xd1))/0x7)+parseInt(_0x49a4a6(0xe4))/0x8*(parseInt(_0x49a4a6(0xd0))/0x9)+-parseInt(_0x49a4a6(0xe6))/0xa;if(_0x492b8c===_0xa2cfcd)break;else _0x475bf8['push'](_0x475bf8['shift']());}catch(_0x40cba5){_0x475bf8['push'](_0x475bf8['shift']());}}}(a0_0x1299,0x6df84));const kCellSize=0x10;function a0_0x5702(_0x5445ae,_0x824597){const _0x1299d0=a0_0x1299();return a0_0x5702=function(_0x570230,_0x22aa15){_0x570230=_0x570230-0xc2;let _0x28551d=_0x1299d0[_0x570230];return _0x28551d;},a0_0x5702(_0x5445ae,_0x824597);}export class ConsoleGrid{constructor(_0x3c8d50){const _0x59c49a=a0_0x5702;this[_0x59c49a(0xee)]=_0x3c8d50[_0x59c49a(0xee)],this[_0x59c49a(0xe8)]=_0x3c8d50[_0x59c49a(0xe8)]||0x14,this[_0x59c49a(0xf0)]=_0x3c8d50['colCount']||0x1e,this[_0x59c49a(0xeb)]=_0x3c8d50['backgroundDots'],this['hasStatusLine']=_0x3c8d50[_0x59c49a(0xc9)]!==![],this[_0x59c49a(0xd7)]=this[_0x59c49a(0xf0)]*kCellSize,this[_0x59c49a(0xe9)]=this[_0x59c49a(0xe8)]*kCellSize;const _0x19c5c6=window['devicePixelRatio']||0x1;this[_0x59c49a(0xee)][_0x59c49a(0xd7)]=this[_0x59c49a(0xd7)]*_0x19c5c6,this[_0x59c49a(0xee)]['height']=this[_0x59c49a(0xe9)]*_0x19c5c6,this['canvas'][_0x59c49a(0xd3)][_0x59c49a(0xd7)]=this[_0x59c49a(0xd7)]+'px',this[_0x59c49a(0xee)][_0x59c49a(0xd3)][_0x59c49a(0xe9)]=this[_0x59c49a(0xe9)]+'px';const _0x218134=this['canvas']['getContext']('2d');_0x218134[_0x59c49a(0xd5)](_0x19c5c6,_0x19c5c6),_0x218134['font']=kCellSize*0.8+_0x59c49a(0xcf),_0x218134[_0x59c49a(0xdc)]='center',_0x218134[_0x59c49a(0xc7)]=_0x59c49a(0xde);if(this['hasStatusLine']){let _0x2528cc=document['querySelector'](_0x59c49a(0xdd));!_0x2528cc&&(_0x2528cc=document[_0x59c49a(0xdf)]('div'),_0x2528cc['className']=_0x59c49a(0xe5),this[_0x59c49a(0xee)][_0x59c49a(0xc5)](_0x59c49a(0xcb),_0x2528cc)),_0x2528cc[_0x59c49a(0xd3)][_0x59c49a(0xd7)]=this[_0x59c49a(0xd7)]-0x4+'px',this[_0x59c49a(0xca)]=_0x2528cc;}this['ctx']=_0x218134,this[_0x59c49a(0xc8)]();}[a0_0x46ec9b(0xd4)](_0x23de81){const _0xde504a=a0_0x46ec9b;let _0x202d81=0x0;const _0x5f0d0b=this['ctx'];_0x5f0d0b[_0xde504a(0xed)]=_0xde504a(0xcc);const _0x4ebc00=0x1,_0x498b9c=kCellSize-_0x4ebc00*0x2;for(let _0x415e33 of _0x23de81){_0x202d81++;const _0x539fe2=Math[_0xde504a(0xcd)](_0x415e33/this[_0xde504a(0xf0)]),_0x43be6d=_0x415e33%this[_0xde504a(0xf0)],_0x15180a=_0x43be6d*kCellSize,_0x18fd21=_0x539fe2*kCellSize;_0x5f0d0b[_0xde504a(0xd6)](_0x15180a+_0x4ebc00,_0x18fd21+_0x4ebc00,_0x498b9c,_0x498b9c);}return _0x202d81;}['eraseAll'](){const _0x1cbe63=a0_0x46ec9b,_0x50dc3e=this[_0x1cbe63(0xe2)];_0x50dc3e['fillStyle']=_0x1cbe63(0xd8),_0x50dc3e['fillRect'](0x0,0x0,this[_0x1cbe63(0xd7)],this['height']);if(this['backgroundDots'])for(let _0x50d1bc=0x0;_0x50d1bc<this[_0x1cbe63(0xe8)];_0x50d1bc++){for(let _0x3060fe=0x0;_0x3060fe<this[_0x1cbe63(0xf0)];_0x3060fe++){this[_0x1cbe63(0xc4)](_0x50d1bc,_0x3060fe,'·',_0x1cbe63(0xec));}}}['cellCenter'](_0x2f712d,_0x169e2f){const _0x3cba3e=_0x169e2f*kCellSize+kCellSize/0x2,_0x485013=_0x2f712d*kCellSize+kCellSize/0x2;return{'cx':_0x3cba3e,'cy':_0x485013};}[a0_0x46ec9b(0xc4)](_0x816053,_0x7ab94,_0x27e289,_0x115d60=a0_0x46ec9b(0xcc)){const _0x16b032=a0_0x46ec9b,_0x102f81=this[_0x16b032(0xe2)];this[_0x16b032(0xe2)][_0x16b032(0xed)]=_0x16b032(0xd8),this[_0x16b032(0xe2)]['fillRect'](_0x7ab94*kCellSize,_0x816053*kCellSize,kCellSize,kCellSize);const {cx:_0x50a58b,cy:_0x43608a}=this[_0x16b032(0xe1)](_0x816053,_0x7ab94);_0x102f81[_0x16b032(0xed)]=_0x115d60,_0x102f81[_0x16b032(0xea)](_0x27e289,_0x50a58b,_0x43608a);}[a0_0x46ec9b(0xd9)](_0x2216cb,_0x33e837){const _0x568d0f=a0_0x46ec9b,_0x333323=_0x33e837*kCellSize,_0x349ed2=_0x2216cb*kCellSize;this[_0x568d0f(0xe2)][_0x568d0f(0xef)](_0x333323,_0x349ed2,kCellSize,kCellSize),this[_0x568d0f(0xeb)]&&this[_0x568d0f(0xc4)](_0x2216cb,_0x33e837,'·','#FFFFFF4D');}[a0_0x46ec9b(0xe3)](_0x89cd5d){const _0x24d5ad=a0_0x46ec9b;this[_0x24d5ad(0xc9)]&&(this[_0x24d5ad(0xca)][_0x24d5ad(0xc3)]=_0x89cd5d);}}export class Cout{constructor(_0x11485f){const _0x3e62eb=a0_0x46ec9b;this[_0x3e62eb(0xf1)]=_0x11485f;}['writeLine'](_0x5690e4,_0x482f3d=![]){const _0x5bc0dd=a0_0x46ec9b;if(!this[_0x5bc0dd(0xf1)])return;_0x482f3d?(this[_0x5bc0dd(0xf1)][_0x5bc0dd(0xd2)]+=_0x5690e4+'<br>',this[_0x5bc0dd(0xf1)]['scrollTop']=this[_0x5bc0dd(0xf1)][_0x5bc0dd(0xe0)]):this[_0x5bc0dd(0xf1)][_0x5bc0dd(0xd2)]=_0x5690e4+'<br>';}}function a0_0x1299(){const _0x382254=['scale','fillRect','width','black','eraseCharAt','4015830IrfZFx','814031cvjZxr','textAlign','.vt100.status-line','middle','createElement','scrollHeight','cellCenter','ctx','setStatusLine','696PfLytk','vt100\x20status-line','28665580vuGVuq','1562016ORvgUa','rowCount','height','fillText','backgroundDots','#FFFFFF4D','fillStyle','canvas','clearRect','colCount','element','21UWkuMc','innerText','drawCharAt','insertAdjacentElement','2490lkkFyn','textBaseline','eraseAll','hasStatusLine','statusLineEl','afterend','white','floor','2284tGQyQP','px\x20monospace','34659rghbIq','9779tKajCx','innerHTML','style','drawSet'];a0_0x1299=function(){return _0x382254;};return a0_0x1299();}
+
+
+const kCellSize = 16;
+
+// Note that this console grid is slower and more functional than the Game of Life version (LifeConsoleGrid)
+// To get high performance, use that class, or use this one under the following conditions:
+// backgroundDots = false
+// Use only drawSet() and eraseAll()
+
+export class ConsoleGrid {
+  constructor(params) {
+    this.canvas = params.canvas;
+    this.rowCount = params.rowCount || 20;
+    this.colCount = params.colCount || 30;
+    this.backgroundDots = params.backgroundDots;
+    this.hasStatusLine = params.hasStatusLine !== false;
+
+    this.width = this.colCount * kCellSize;
+    this.height = this.rowCount * kCellSize;
+
+    const dpr = window.devicePixelRatio || 1;
+    this.canvas.width = this.width * dpr;
+    this.canvas.height = this.height * dpr;
+    this.canvas.style.width = `${this.width}px`;
+    this.canvas.style.height = `${this.height}px`;
+
+    // scales the context to map 1 CSS px to 1 device px
+    const ctx = this.canvas.getContext("2d");
+    ctx.scale(dpr, dpr);
+
+    ctx.font = `${kCellSize * 0.8}px monospace`;
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+
+    if (this.hasStatusLine) {
+      let statusLineEl = document.querySelector('.vt100.status-line');
+      if (!statusLineEl) {
+        statusLineEl = document.createElement("div");
+        statusLineEl.className = "vt100 status-line";
+        this.canvas.insertAdjacentElement("afterend", statusLineEl);
+      }
+      statusLineEl.style.width = `${this.width - 4}px`;
+      this.statusLineEl = statusLineEl;
+    }
+
+    this.ctx = ctx;
+    this.eraseAll();
+  }
+
+  drawSet(set) {
+    let livingCells = 0;
+    const ctx = this.ctx;
+    ctx.fillStyle = 'white';
+    const inset = 1;
+    const insetCellSize = kCellSize - inset * 2;
+
+    for (let key of set) {
+      livingCells++;
+      const row = Math.floor(key / this.colCount);
+      const col = key % this.colCount;
+      const x = col * kCellSize;
+      const y = row * kCellSize;
+      ctx.fillRect(x + inset, y + inset, insetCellSize, insetCellSize);
+    }
+    return livingCells;
+  }
+
+  eraseAll() {
+    const ctx = this.ctx;
+    ctx.fillStyle = "black";
+    ctx.fillRect(0, 0, this.width, this.height);
+
+    if (this.backgroundDots) {
+      for (let r = 0; r < this.rowCount; r++) {
+        for (let c = 0; c < this.colCount; c++) {
+          this.drawCharAt(r, c, "\u00B7", "#FFFFFF4D")
+        }
+      }
+    }
+  }
+
+  cellCenter(row, col) {
+    const cx = col * kCellSize + kCellSize / 2;
+    const cy = row * kCellSize + kCellSize / 2;
+    return { cx, cy };
+  }
+
+  drawCharAt(row, col, char, color = "white") {
+    const ctx = this.ctx;
+
+    this.ctx.fillStyle = "black";
+    this.ctx.fillRect(col * kCellSize, row * kCellSize, kCellSize, kCellSize);
+
+    const { cx, cy } = this.cellCenter(row, col);
+    ctx.fillStyle = color;
+
+    ctx.fillText(char, cx, cy);
+  }
+
+  eraseCharAt(row, col) {
+    const x = col * kCellSize;
+    const y = row * kCellSize;
+    this.ctx.clearRect(x, y, kCellSize, kCellSize);
+
+    if (this.backgroundDots) {
+      this.drawCharAt(row, col, "\u00B7", "#FFFFFF4D")
+    }
+  }
+
+  setStatusLine(text) {
+    if (this.hasStatusLine) {
+      this.statusLineEl.innerText = text;
+    }
+  }
+}
+
+
+export class Cout {
+  constructor(element) {
+    this.element = element;
+  }
+
+  writeLine(line, append = false) {
+    if (!this.element) return;
+    if (append) {
+      this.element.innerHTML += line + "<br>";
+      this.element.scrollTop = this.element.scrollHeight;
+    } else {
+      this.element.innerHTML = line + "<br>";
+    }
+  }
+}

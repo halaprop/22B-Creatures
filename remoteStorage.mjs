@@ -1,1 +1,114 @@
-function a0_0x2dbf(_0x2bea34,_0x4f6a99){const _0x7d6808=a0_0x7d68();return a0_0x2dbf=function(_0x2dbf3c,_0x4ca002){_0x2dbf3c=_0x2dbf3c-0x18e;let _0x5f5075=_0x7d6808[_0x2dbf3c];return _0x5f5075;},a0_0x2dbf(_0x2bea34,_0x4f6a99);}const a0_0x3cd2cb=a0_0x2dbf;(function(_0x28aaa4,_0x3bf885){const _0x41b86e=a0_0x2dbf,_0x4abc12=_0x28aaa4();while(!![]){try{const _0x296172=-parseInt(_0x41b86e(0x1b2))/0x1+-parseInt(_0x41b86e(0x195))/0x2+parseInt(_0x41b86e(0x1a5))/0x3*(-parseInt(_0x41b86e(0x19c))/0x4)+-parseInt(_0x41b86e(0x1b6))/0x5*(-parseInt(_0x41b86e(0x1b0))/0x6)+parseInt(_0x41b86e(0x197))/0x7+-parseInt(_0x41b86e(0x18f))/0x8*(-parseInt(_0x41b86e(0x192))/0x9)+-parseInt(_0x41b86e(0x1a3))/0xa*(-parseInt(_0x41b86e(0x1aa))/0xb);if(_0x296172===_0x3bf885)break;else _0x4abc12['push'](_0x4abc12['shift']());}catch(_0x290b66){_0x4abc12['push'](_0x4abc12['shift']());}}}(a0_0x7d68,0x4ef2d));function a0_0x7d68(){const _0x4bc070=['all','27RMvIHa','fetch','/get','message','/set','40667KbVuOV','/getWithMetadata','getItem','GET','https://remote-storage.dan-5d7.workers.dev/v1','list','18ldGXog','push','587845cfVyGt','endpoint','removeItem','stringify','331690IrEGKD','json','namespace','692032JLbwDx','getNamespace','\x20→\x20ERROR:\x20','45sEZPeg','length','/list','95384vxsFsf','requestHeaders','2172198DdffYj','DELETE','keys','some','/delete','171516AdkiTq','map','startsWith','application/json','entries','search','toString','1090tNDEQc'];a0_0x7d68=function(){return _0x4bc070;};return a0_0x7d68();}export class RemoteStorage{constructor(_0xc449a0,_0x37beca){const _0x1fcee5=a0_0x2dbf;this[_0x1fcee5(0x18e)]=_0xc449a0,this[_0x1fcee5(0x1b3)]=_0x1fcee5(0x1ae),this['requestHeaders']={'Authorization':_0x37beca,'Content-Type':_0x1fcee5(0x19f)};}async['keys'](){const _0x4aa82b=a0_0x2dbf;let _0x4e7feb=[],_0x2405ec=null;while(!![]){const {keys:_0x1e37f8,cursor:_0x59c724,list_complete:_0x29626d}=await this['keysPaged']({'cursor':_0x2405ec});_0x4e7feb[_0x4aa82b(0x1b1)](..._0x1e37f8);if(_0x29626d)break;_0x2405ec=_0x59c724;}return _0x4e7feb;}async['keysPaged']({limit:limit=0x3e8,cursor:_0x1e0acd=null}={}){const _0x326a87=a0_0x2dbf,{items:_0x34ea13,cursor:_0x1875ff,list_complete:_0x36dfa8}=await this[_0x326a87(0x1af)]({'limit':limit,'cursor':_0x1e0acd}),_0x1f047a=_0x34ea13[_0x326a87(0x19d)](_0x1426fc=>_0x1426fc['name']);return{'keys':_0x1f047a,'cursor':_0x1875ff,'list_complete':_0x36dfa8};}async[a0_0x3cd2cb(0x190)](..._0x359dfa){const _0x1a4e37=a0_0x3cd2cb,_0x13bb38={};let _0x50b508=null;while(!![]){const {items:_0x3a9842,cursor:_0x2500c8,list_complete:_0x37ed99}=await this[_0x1a4e37(0x1af)]({'cursor':_0x50b508}),_0x1b5589=_0x359dfa[_0x1a4e37(0x193)]?_0x3a9842['filter'](_0x185047=>_0x359dfa[_0x1a4e37(0x19a)](_0x109373=>_0x185047['name'][_0x1a4e37(0x19e)](_0x109373))):_0x3a9842,_0x22a0c2=_0x1b5589[_0x1a4e37(0x19d)](async({name:_0x19b0cc,metadata:_0x519105})=>{const _0x464497=_0x1a4e37,_0x2a105c=await this[_0x464497(0x1ac)](_0x19b0cc);_0x13bb38[_0x19b0cc]={'value':_0x2a105c,'metadata':_0x519105};});await Promise[_0x1a4e37(0x1a4)](_0x22a0c2);if(_0x37ed99)break;_0x50b508=_0x2500c8;}return _0x13bb38;}async[a0_0x3cd2cb(0x1af)]({limit:limit=0x3e8,cursor:cursor=null}={}){const _0x4233a9=a0_0x3cd2cb;return this[_0x4233a9(0x1a6)]('GET',_0x4233a9(0x194),null,{'limit':limit,'cursor':cursor});}async['setItem'](_0x4ce5d1,_0x38e287){const _0x1befff=a0_0x3cd2cb;return this[_0x1befff(0x1a6)]('POST',_0x1befff(0x1a9),{'key':_0x4ce5d1,'value':_0x38e287});}async[a0_0x3cd2cb(0x1ac)](_0x24ebab){const _0x5f1244=a0_0x3cd2cb;return this['fetch']('GET',_0x5f1244(0x1a7),null,{'key':_0x24ebab});}async['getItemWithMetadata'](_0x568484){const _0x56ee2a=a0_0x3cd2cb;return this[_0x56ee2a(0x1a6)](_0x56ee2a(0x1ad),_0x56ee2a(0x1ab),null,{'key':_0x568484});}async[a0_0x3cd2cb(0x1b4)](_0x36eec3){const _0x94ff93=a0_0x3cd2cb;return this[_0x94ff93(0x1a6)](_0x94ff93(0x198),_0x94ff93(0x19b),null,{'key':_0x36eec3});}async['clear'](){const _0x1e0407=a0_0x3cd2cb,_0xabf77e=await this[_0x1e0407(0x199)](),_0x442de9=_0xabf77e[_0x1e0407(0x19d)](_0xda3198=>this[_0x1e0407(0x1b4)](_0xda3198));return await Promise[_0x1e0407(0x1a4)](_0x442de9),null;}async[a0_0x3cd2cb(0x1a6)](_0x49f00f,_0x539dde,_0x415b51=null,_0x4cdf81={}){const _0x30b54a=a0_0x3cd2cb;_0x4cdf81={..._0x4cdf81,'namespace':this[_0x30b54a(0x18e)]};let _0x100c30=new URL(''+this[_0x30b54a(0x1b3)]+_0x539dde);const _0x4198bd=new URLSearchParams();for(const [_0x26a2a8,_0x4dd7cd]of Object[_0x30b54a(0x1a0)](_0x4cdf81)){_0x4dd7cd!==undefined&&_0x4dd7cd!==null&&_0x4198bd['append'](_0x26a2a8,_0x4dd7cd);}_0x100c30[_0x30b54a(0x1a1)]=_0x4198bd[_0x30b54a(0x1a2)]();const _0x148712={'method':_0x49f00f,'headers':this[_0x30b54a(0x196)]};if(_0x415b51)_0x148712['body']=JSON[_0x30b54a(0x1b5)](_0x415b51);try{const _0x102133=await fetch(_0x100c30,_0x148712),_0x2ec15d=await _0x102133[_0x30b54a(0x1b7)]();if(!_0x102133['ok'])throw{'error':_0x2ec15d};return _0x2ec15d;}catch(_0x937aed){console['log'](_0x49f00f+'\x20'+_0x100c30+_0x30b54a(0x191)+_0x937aed[_0x30b54a(0x1a8)]);throw _0x937aed;}}}
+export class RemoteStorage {
+  constructor(namespace, token) {
+    this.namespace = namespace;
+    this.endpoint = 'https://remote-storage.dan-5d7.workers.dev/v1';
+    this.requestHeaders = {
+      'Authorization': token,
+      'Content-Type': 'application/json'
+    };
+  }
+
+  // Returns an array of all keys
+  async keys() {
+    let result = [], cursor = null;
+
+    while (true) {
+      const { keys, cursor: nextCursor, list_complete } = await this.keysPaged({ cursor });
+      result.push(...keys);
+      if (list_complete) break;
+      cursor = nextCursor;
+    }
+    return result;
+  }
+
+  // Returns { keys: [...], cursor, list_complete }
+  async keysPaged({ limit = 1000, cursor: inputCursor = null } = {}) {
+    const { items, cursor, list_complete } = await this.list({ limit, cursor: inputCursor });
+    const keys = items.map(item => item.name);
+    return { keys, cursor, list_complete };
+  }
+
+  // Returns { key: { value, metadata }, ... } 
+  // for all keys in the namespace matching any of the prefixes
+  async getNamespace(...prefixes) {
+    const result = {};
+    let inputCursor = null;
+
+    while (true) {
+      const { items, cursor, list_complete } = await this.list({ cursor: inputCursor });
+
+      const matchingItems = prefixes.length ?
+        items.filter(item => prefixes.some(prefix => item.name.startsWith(prefix))) : items;
+      
+      const promises = matchingItems.map(async ({name, metadata}) => {
+          const value = await this.getItem(name);
+          result[name] = { value, metadata };
+      });
+      await Promise.all(promises);
+
+      if (list_complete) break;
+      inputCursor = cursor;
+    }
+    return result;
+  }
+
+  // Returns { items: [{ name, metadata : { creationTime, updateTime } }], cursor, list_complete }
+  async list({ limit = 1000, cursor = null } = {}) {
+    return this.fetch('GET', '/list', null, { limit, cursor });
+  }
+
+  // Returns null
+  async setItem(key, value) {
+    return this.fetch('POST', '/set', { key, value });
+  }
+
+  // Returns value
+  async getItem(key) {
+    return this.fetch('GET', '/get', null, { key });
+  }
+
+  // Returns { value, metadata }
+  async getItemWithMetadata(key) {
+    return this.fetch('GET', '/getWithMetadata', null, { key });
+  }
+
+  // Returns null
+  async removeItem(key) {
+    return this.fetch('DELETE', '/delete', null, { key });
+  }
+
+  // Returns null
+  async clear() {
+    const keys = await this.keys();
+    const promises = keys.map(key => this.removeItem(key));
+    await Promise.all(promises);
+    return null;
+  }
+
+  async fetch(method, path, data = null, queryParams = {}) {
+    // Always include namespace
+    queryParams = { ...queryParams, namespace: this.namespace };
+
+    let url = new URL(`${this.endpoint}${path}`);
+    const params = new URLSearchParams();
+    for (const [key, value] of Object.entries(queryParams)) {
+      if (value !== undefined && value !== null) {
+        params.append(key, value);
+      }
+    }
+    url.search = params.toString();
+
+    const options = { method, headers: this.requestHeaders };
+    if (data) options.body = JSON.stringify(data);
+
+    try {
+      const response = await fetch(url, options);
+      const json = await response.json();
+      if (!response.ok) throw { error: json };
+      return json;
+    } catch (error) {
+      console.log(`${method} ${url} → ERROR: ${error.message}`);
+      throw error;
+    }
+  }
+}

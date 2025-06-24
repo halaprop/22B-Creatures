@@ -5,11 +5,13 @@ import { CreaturesApp } from "./creature.js";
 // stripped for creatures build
 
 // This file is unaltered in dev. In dev, project is determined by the "project" query param.
-// build deletes the params variable and sets the projectID to Snake or Creatures.
+// build leaves the params variable untouched.
 const params = new URLSearchParams(window.location.search);
 
+// build omits the projectID variable and sets projectKlass to either of the imported classes
+const projectKlass = CreaturesApp;
+
 // build replaces these ternarys with one or the other value
-const project = CreaturesApp;
 const namespace = "CREATURES_SUBMISSIONS";
 const SUBMISSIONS_WRITE = "x0R7wwi9cY2cvaGX.KKB7rARXvjKno43OdWwEUJESEOzBu30i3rtCwk69zrKKy6oaMQTTkEJmp2F4e3rkQz7XETmy6ByXdyHjPviDrxwMigIE4+PbP4FZeVY=";
 //
@@ -38,7 +40,7 @@ class App {
     const speedBtn = App.el('speed-btn');
     const dropdownEl = App.el('speed-select');
 
-    this.snakeApp = new project;
+    this.snakeApp = new projectKlass();
 
     App.el("upload-btn").addEventListener('click', () => {
       fileInput.click();
@@ -50,7 +52,7 @@ class App {
         const { keys, text } = await readKeys(file);
         this.keys = keys;
         this.text = text;
-        this.snakeApp = new project;
+        this.snakeApp = new projectKlass();
         this.startPlayback();
         fileInput.value = '';
         playBtn.disabled = false;

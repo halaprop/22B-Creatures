@@ -1,1 +1,114 @@
-const a0_0xd8c15c=a0_0x136e;(function(_0x106059,_0x53c526){const _0x5eccc1=a0_0x136e,_0x2df38a=_0x106059();while(!![]){try{const _0x35926a=parseInt(_0x5eccc1(0x13a))/0x1*(parseInt(_0x5eccc1(0x154))/0x2)+parseInt(_0x5eccc1(0x134))/0x3+parseInt(_0x5eccc1(0x14a))/0x4+-parseInt(_0x5eccc1(0x133))/0x5+parseInt(_0x5eccc1(0x137))/0x6+-parseInt(_0x5eccc1(0x155))/0x7+parseInt(_0x5eccc1(0x135))/0x8;if(_0x35926a===_0x53c526)break;else _0x2df38a['push'](_0x2df38a['shift']());}catch(_0x4c60b2){_0x2df38a['push'](_0x2df38a['shift']());}}}(a0_0x1943,0xef904));function a0_0x1943(){const _0x42863e=['346608PjIbJK','length','fetch','getItem','list','json','namespace','log','removeItem','filter','2262pbJtPw','2357803gHxinN','toString','keys','map','/set','5946645ZClaUe','1052589BbZYBE','2588640aUjaUX','setItem','3515454LVekvJ','requestHeaders','https://remote-storage.dan-5d7.workers.dev/v1','1026vrTSIO','all','stringify','name','keysPaged','/get','search','body','endpoint','push','getItemWithMetadata','entries','/getWithMetadata','clear','GET','\x20→\x20ERROR:\x20'];a0_0x1943=function(){return _0x42863e;};return a0_0x1943();}function a0_0x136e(_0x3dd520,_0x3ae919){const _0x194326=a0_0x1943();return a0_0x136e=function(_0x136e7d,_0x277f7e){_0x136e7d=_0x136e7d-0x133;let _0x303e7f=_0x194326[_0x136e7d];return _0x303e7f;},a0_0x136e(_0x3dd520,_0x3ae919);}export class RemoteStorage{constructor(_0x47b4be,_0x308e9b){const _0x562c6f=a0_0x136e;this[_0x562c6f(0x150)]=_0x47b4be,this[_0x562c6f(0x142)]=_0x562c6f(0x139),this[_0x562c6f(0x138)]={'Authorization':_0x308e9b,'Content-Type':'application/json'};}async[a0_0xd8c15c(0x157)](){const _0x1456cd=a0_0xd8c15c;let _0xe9bf2d=[],_0x205778=null;while(!![]){const {keys:_0x18bf0a,cursor:_0x586f7c,list_complete:_0x453fc0}=await this[_0x1456cd(0x13e)]({'cursor':_0x205778});_0xe9bf2d[_0x1456cd(0x143)](..._0x18bf0a);if(_0x453fc0)break;_0x205778=_0x586f7c;}return _0xe9bf2d;}async[a0_0xd8c15c(0x13e)]({limit:limit=0x3e8,cursor:_0x43d1d5=null}={}){const _0x4fd0ef=a0_0xd8c15c,{items:_0x39a39c,cursor:_0x5b4a95,list_complete:_0x7e56b8}=await this[_0x4fd0ef(0x14e)]({'limit':limit,'cursor':_0x43d1d5}),_0x1e6834=_0x39a39c[_0x4fd0ef(0x158)](_0x10136a=>_0x10136a[_0x4fd0ef(0x13d)]);return{'keys':_0x1e6834,'cursor':_0x5b4a95,'list_complete':_0x7e56b8};}async['getNamespace'](..._0x3740dd){const _0x50f494=a0_0xd8c15c,_0x557534={};let _0x5769d7=null;while(!![]){const {items:_0x2df9d6,cursor:_0x4cb293,list_complete:_0x25adad}=await this[_0x50f494(0x14e)]({'cursor':_0x5769d7}),_0x45db6b=_0x3740dd[_0x50f494(0x14b)]?_0x2df9d6[_0x50f494(0x153)](_0x5dbdd3=>_0x3740dd['some'](_0x3f4048=>_0x5dbdd3[_0x50f494(0x13d)]['startsWith'](_0x3f4048))):_0x2df9d6,_0x105e0c=_0x45db6b[_0x50f494(0x158)](async({name:_0x5c8cfc,metadata:_0x4838ad})=>{const _0x32b7b6=_0x50f494,_0x16ae4f=await this[_0x32b7b6(0x14d)](_0x5c8cfc);_0x557534[_0x5c8cfc]={'value':_0x16ae4f,'metadata':_0x4838ad};});await Promise[_0x50f494(0x13b)](_0x105e0c);if(_0x25adad)break;_0x5769d7=_0x4cb293;}return _0x557534;}async[a0_0xd8c15c(0x14e)]({limit:limit=0x3e8,cursor:cursor=null}={}){const _0x373e46=a0_0xd8c15c;return this['fetch'](_0x373e46(0x148),'/list',null,{'limit':limit,'cursor':cursor});}async[a0_0xd8c15c(0x136)](_0x420edd,_0x4f94d7){const _0x115097=a0_0xd8c15c;return this[_0x115097(0x14c)]('POST',_0x115097(0x159),{'key':_0x420edd,'value':_0x4f94d7});}async[a0_0xd8c15c(0x14d)](_0x252088){const _0x4d4f20=a0_0xd8c15c;return this[_0x4d4f20(0x14c)](_0x4d4f20(0x148),_0x4d4f20(0x13f),null,{'key':_0x252088});}async[a0_0xd8c15c(0x144)](_0x12477c){const _0xc820f1=a0_0xd8c15c;return this[_0xc820f1(0x14c)]('GET',_0xc820f1(0x146),null,{'key':_0x12477c});}async[a0_0xd8c15c(0x152)](_0x5c2a4c){const _0x5438e3=a0_0xd8c15c;return this[_0x5438e3(0x14c)]('DELETE','/delete',null,{'key':_0x5c2a4c});}async[a0_0xd8c15c(0x147)](){const _0x1f7106=a0_0xd8c15c,_0x22a385=await this[_0x1f7106(0x157)](),_0x75ca92=_0x22a385['map'](_0x4be812=>this[_0x1f7106(0x152)](_0x4be812));return await Promise[_0x1f7106(0x13b)](_0x75ca92),null;}async['fetch'](_0x224bbe,_0x3838cb,_0x4e39bc=null,_0x567407={}){const _0x477812=a0_0xd8c15c;_0x567407={..._0x567407,'namespace':this[_0x477812(0x150)]};let _0x4db8b3=new URL(''+this[_0x477812(0x142)]+_0x3838cb);const _0x360a04=new URLSearchParams();for(const [_0x270062,_0x31d3c5]of Object[_0x477812(0x145)](_0x567407)){_0x31d3c5!==undefined&&_0x31d3c5!==null&&_0x360a04['append'](_0x270062,_0x31d3c5);}_0x4db8b3[_0x477812(0x140)]=_0x360a04[_0x477812(0x156)]();const _0x3e9114={'method':_0x224bbe,'headers':this['requestHeaders']};if(_0x4e39bc)_0x3e9114[_0x477812(0x141)]=JSON[_0x477812(0x13c)](_0x4e39bc);try{const _0x394959=await fetch(_0x4db8b3,_0x3e9114),_0x248109=await _0x394959[_0x477812(0x14f)]();if(!_0x394959['ok'])throw{'error':_0x248109};return _0x248109;}catch(_0x50b290){console[_0x477812(0x151)](_0x224bbe+'\x20'+_0x4db8b3+_0x477812(0x149)+_0x50b290['message']);throw _0x50b290;}}}
+export class RemoteStorage {
+  constructor(namespace, token) {
+    this.namespace = namespace;
+    this.endpoint = 'https://remote-storage.dan-5d7.workers.dev/v1';
+    this.requestHeaders = {
+      'Authorization': token,
+      'Content-Type': 'application/json'
+    };
+  }
+
+  // Returns an array of all keys
+  async keys() {
+    let result = [], cursor = null;
+
+    while (true) {
+      const { keys, cursor: nextCursor, list_complete } = await this.keysPaged({ cursor });
+      result.push(...keys);
+      if (list_complete) break;
+      cursor = nextCursor;
+    }
+    return result;
+  }
+
+  // Returns { keys: [...], cursor, list_complete }
+  async keysPaged({ limit = 1000, cursor: inputCursor = null } = {}) {
+    const { items, cursor, list_complete } = await this.list({ limit, cursor: inputCursor });
+    const keys = items.map(item => item.name);
+    return { keys, cursor, list_complete };
+  }
+
+  // Returns { key: { value, metadata }, ... } 
+  // for all keys in the namespace matching any of the prefixes
+  async getNamespace(...prefixes) {
+    const result = {};
+    let inputCursor = null;
+
+    while (true) {
+      const { items, cursor, list_complete } = await this.list({ cursor: inputCursor });
+
+      const matchingItems = prefixes.length ?
+        items.filter(item => prefixes.some(prefix => item.name.startsWith(prefix))) : items;
+      
+      const promises = matchingItems.map(async ({name, metadata}) => {
+          const value = await this.getItem(name);
+          result[name] = { value, metadata };
+      });
+      await Promise.all(promises);
+
+      if (list_complete) break;
+      inputCursor = cursor;
+    }
+    return result;
+  }
+
+  // Returns { items: [{ name, metadata : { creationTime, updateTime } }], cursor, list_complete }
+  async list({ limit = 1000, cursor = null } = {}) {
+    return this.fetch('GET', '/list', null, { limit, cursor });
+  }
+
+  // Returns null
+  async setItem(key, value) {
+    return this.fetch('POST', '/set', { key, value });
+  }
+
+  // Returns value
+  async getItem(key) {
+    return this.fetch('GET', '/get', null, { key });
+  }
+
+  // Returns { value, metadata }
+  async getItemWithMetadata(key) {
+    return this.fetch('GET', '/getWithMetadata', null, { key });
+  }
+
+  // Returns null
+  async removeItem(key) {
+    return this.fetch('DELETE', '/delete', null, { key });
+  }
+
+  // Returns null
+  async clear() {
+    const keys = await this.keys();
+    const promises = keys.map(key => this.removeItem(key));
+    await Promise.all(promises);
+    return null;
+  }
+
+  async fetch(method, path, data = null, queryParams = {}) {
+    // Always include namespace
+    queryParams = { ...queryParams, namespace: this.namespace };
+
+    let url = new URL(`${this.endpoint}${path}`);
+    const params = new URLSearchParams();
+    for (const [key, value] of Object.entries(queryParams)) {
+      if (value !== undefined && value !== null) {
+        params.append(key, value);
+      }
+    }
+    url.search = params.toString();
+
+    const options = { method, headers: this.requestHeaders };
+    if (data) options.body = JSON.stringify(data);
+
+    try {
+      const response = await fetch(url, options);
+      const json = await response.json();
+      if (!response.ok) throw { error: json };
+      return json;
+    } catch (error) {
+      console.log(`${method} ${url} → ERROR: ${error.message}`);
+      throw error;
+    }
+  }
+}
